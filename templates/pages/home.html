@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+  
+<!-- Banner start -->
+{% include "includes/banner.html" %}
+<!-- Banner end -->
+
+<!-- Search box 2 end -->
+
+<!-- Featured car start -->
+{% include "includes/featured-car.html" %}
+<!-- Featured car end -->
+
+<!-- Rent car start -->
+{% include "includes/rent-car.html" %}
+<!-- Rent car end -->
+
+
+<!-- Our team start -->
+{% include "includes/team.html" %}
+<!-- Our team end -->
+
+<!-- Intro section start -->
+<div class="intro-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="intro-text">
+                    <h3>Do You Have Questions ?</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <a href="contact.html" class="btn btn-md">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Intro section end -->
+
+{% endblock content %}
